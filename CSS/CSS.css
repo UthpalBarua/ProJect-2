@@ -1,0 +1,255 @@
+*{ margin: 0;
+   padding: 0;
+   border: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-family: 'Titillium Web', sans-serif;
+   }
+   section{
+          padding: 100px 0px;
+          }
+  .container{
+      width: 90%;
+      margin: auto;
+        }
+    .underline {
+               border-top: 5px solid rgba(0, 0, 0, 0.48) ;
+               width: 7%;
+               margin: 10px auto;
+               }
+    .global-heading{
+                  font-size: 35px;
+                  letter-spacing: 5px;
+                  font-weight: 600;
+                }
+    .small-heading{
+                  font-size: 25px;
+                  font-weight: 600;
+               }
+   header {
+         width:100%;
+         float:left;
+         background-color: #87509c;
+         color:#ffff;
+         }
+    nav {
+            width: 100%;
+            float: left;
+            padding: 10px 0px;
+         }
+   .logo-part{
+               width:50%;
+               float: left;
+               }
+   .menu-part{
+              width:50%;
+              float: left;
+              padding: 10px 0px;
+              text-align: end;
+                  }
+   .menu-part li{
+               display: inline-block;
+               margin: 0px 10px;
+               padding: 5px;
+               border-radius: 5px;
+               }
+   .menu-part li:hover{
+               background-color: rgb(0, 0, 0,0.37);
+   }
+   .menu-part a{
+               font-size: 17px;
+               color: #ffff;
+               font-weight: 600;
+               text-transform: uppercase;
+   }
+    .hero-part{
+      width:100%;
+      float:left;
+      margin: 150px 0px;
+      text-align: center;
+       }
+   .hero-part h1{
+               font-size: 35px;
+               font-weight: 600;
+               width: 60%;
+               margin: auto;
+                 }
+   .hero-part a button{
+                  width: 15%;
+                  padding: 10px;
+                  margin-top: 20px;
+                  color: #ffffff;
+                  background-color: #eb7d4b;
+                  transition:ease-in-out 0.8s;
+                   }
+   .hero-part a button:hover{
+                  box-shadow: 0px 0px 4px #fb4f00;
+                  border-radius: 5px;
+                      }
+     #service{
+      background-color: #17c2a4;
+      color: #ffffff;
+      text-align: center;
+      float: left;
+      width: 100%;
+   }
+   .service-writing-part{
+      width: 100%;
+      float: left;
+
+   }
+   .service-boxing-part{
+      width: 100%;
+      float: left;
+      margin-top: 50px;
+   }
+   .service-box{
+      width: 25%;
+      float: left;
+      padding: 10px;
+   }
+   .service-box h2{
+               margin:  ;
+   }
+   .service-box img{
+            height: 120px;
+   }
+   
+   #team{
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-color: #e7f1f8;
+   }
+ .team-writing-part{
+            width: 100%;
+            float: left;
+ }
+ .team-box-part{
+               width: 100%;
+               float: left;
+               margin-top: 50px;
+ }
+ .team-box {
+         width: 25%;
+         float: left;
+         padding: 10px;
+ }
+ .team-box img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+
+ }
+ .team-box p{
+   margin: 15px 0px;
+
+ }
+ .team-title{
+            color: #48c1e9;
+            font-size: 16px;
+            font-weight: 400;
+
+ }
+ .team-icons i{
+   background-color:#bdd1df;
+   color: white;
+   width: 35px;
+   padding: 10px;
+   border-radius: 50px;
+   margin: 5px;
+   transition: ease-in-out 0.5s;
+ }
+ .team-icons i:hover{
+   background-color:#ffffff;
+   color: #17c2a4;
+ }
+
+ #Skill{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #ffffff;
+}
+ .skill-box-part{
+            width: 100%;
+            float: left;
+            margin-top: 100px;
+            }
+
+ .skill-box img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+ }
+ .skill-box {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+#Portfolio{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #ffdd99;
+}
+.Portfolio-part a button{
+                 width: 7%;
+                padding: 10px;
+               margin-top: 20px;
+              color:black;
+              font-size: 10px;
+              font-family: bold;
+              background-color:#ebc985;
+              transition:ease-in-out 0.8s;
+   }
+.Portfolio-part a button:hover{
+             box-shadow: 0px 0px 4px #fb4f00;
+             border-radius: 5px;
+      }
+      .Portfolio-box img{
+        width: 600px;
+        height: 400px;
+               }
+    .Portfolio-box {
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+
+    #Portfolio-sub-part{
+           background-color: #ffdd99;
+    }
+    .Portfolio-sub-part a button{
+            width: 30%;
+            padding: 20px;
+            margin-top: 150px;
+            color:#ffffff;
+           font-size: 20px;
+          font-family: bold;
+          background-color:#17c2a4;
+        transition:ease-in-out 0.8s;
+    }
+.Portfolio-sub-part a button:hover{
+          box-shadow: 0px 0px 4px #fb4f00;
+            border-radius: 5px;
+}
+
+#About{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #d74680;
+  color: #ffffff;
+  text-align: center;
+ }
+.About-part-section{
+            width: 100%;
+            float: left
+            
+               }
+               .About-service-box{
+                width: 50%;
+                float: left;
+                padding: 50px;
+               }
